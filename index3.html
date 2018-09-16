@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+            <html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="Cesar Szpak - Celke">
+		<link rel="icon" href="imagens/favicon.ico">
+		<title>Inscrições</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
+                <link rel="stylesheet" href="css/efeito.css" type="text/css"/>
+
+	</head>
+	<body role="document">
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+                                    <img src="imagens/logo.png" alt=""/>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"></a>
+                                     
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index2.html">About</a></li>
+						<li><a href="index3.html">subscription </a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">courses <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="index4.html">Espanhol</a></li>
+								<li><a href="index5.html">Informatíca</a></li>
+								<li><a href="index6.html">Design e Web</a></li>
+								<li><a href="index7.html">Manutenção</a></li>
+								<li><a href="index8.html">ENEM</a></li>
+                                                                <li><a href="index9.html">Inglês</a></li>
+                                                                <li><a href="index10.html">Administração e Vendas</a></li>
+                                                                <li><a href="index11.html">Programação</a></li>
+                                                                <li><a href="index12.html">Robótica</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+        
+		</nav>
+                <form>
+                <div style="text-align: center" >
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="imagens/titulo-teste-ingles.png"/>
+                    <h1><em>Se Inscreva e Entre também nessa Familia</em></h1>
+                    <h2><em>Ficha de Inscrição People</em></h2>
+                        <fieldset id="usuario"><legend>Identificação do Usuário:</legend>
+                            <p><label for="cNome">Nome:<input type="text" name="tNome" id="cNome" size="20" maxlenghth="20" placeholder="Nome Completo"/></label></p>
+                            <p><label for="cSenha">Senha:<input type="password" name="tSenha" id="cSenha" size="8" maxlenghth="8" placeholder="Senha"/></label></p>
+                            <p><label for="cMail">E-mail:<input type="email" name="tMail" id="cMail" size="40" maxlenghth="40"/></label></p>
+                            <fieldset id="sexo"><legend>Sexo:</legend>
+                                <input type="radio" name="tsexo" id="cMasc"/><label for="cMasc">Masculino</label><br>
+                                <input type="radio" name="tsexo" id="cFemem" /><label for="cFemem">Feminino</label>
+                            </fieldset>
+                            <p>Data de Nascimento: <input type="date" name="tNasc" /></p>
+                        </fieldset>
+                        <fieldset id="endereco"><legend>Endereço do Usuário: </legend>
+                            <p><label for="cRua">Logradouro:</label>
+                                <input type="text" name="tRua" id="cRua" size="13" maxlenght="80"
+                                       placeholder="Rua,AV.,Trav."/></p>
+                            <p><label for="cNum">Número:</label>
+                                <input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+                            <P><label for="cEst">Estado:</label>
+                                <select name="tEst" id="cEst">
+                                    <optgroup label="Região Sudeste">
+                                        <option value="SP" selected>São Paulo</option>
+                                        <option value="MG" selected>Minas Gerais</option>
+                                        <option value="RJ" selected>Rio de Janeiro</option>
+                                    </optgroup>
+                                    <optgroup label="Região Sul">
+                                        <option value="PR" selected>Paraná</option>
+                                        <option value="SC" selected>Santa Catarina</option>
+                                        <option value="RS" selected>Rio Grande do Sul</option>
+                                    </optgroup>
+                                </select></p>
+                            <p><label for="cCid">Cidade:</label>
+                                <input type="text" id="cCid" maxlength="40" size="20" 
+                                       list="cidades"/> </p>
+                            <datalist id="cidade">
+                                <option value="Rio de Janeiro"></option>
+                                <option value="Nova Iguaçu"></option>
+                                <option value="Niterói"></option>
+                                <option value="Belford Roxo"></option>
+                            </datalist>
+                        </fieldset>
+ <input type="image" name="tEnviar" src="imagens/botao-enviar.png" />
+                </div>
+</form>
+                <footer id="linha">
+                <div class="boxAssinatura">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 visible-md visible-lg">
+                                <br>
+                                <br>
+                                ©People. Todos os direitos reservados.
+                            </div>
+                            <div class="col-md-4 col-lg-4 visible-md visible-lg text-center">
+                                <br>
+                                <br>
+                                Avenida Bady Bassit, 4960
+                                São José do Rio Preto - SP
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 visible-md visible-lg text-right">
+                                <br>
+                                <br>
+                                <a href="http://www.marketmedia.com.br" target="_blank" title="MarketMedia - Agência On Off">
+                                    <img src="imagens/logoMM.png" alt="MarketMedia - Agência On Off" title="MarketMedia - Agência On Off">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </footer>
+          <script src="js/jquery.min.js"></script>		
+		<script src="js/bootstrap.min.js"></script>
+       
+    </body>
+</html>
